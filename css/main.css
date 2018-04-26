@@ -306,27 +306,29 @@ ul li {
     align-content: center;
 }
 .home{
-    background:url(../images/home.jpg) no-repeat center right;
-    background-color: rgb(250, 251, 246); 
+    background:url(../images/home233.jpg) no-repeat center;
     color:#000;
     width:100%;
     height: 100%;
     margin: 0;
-    padding: 10%;
+    padding: 7%;
 	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-    background-size: 60%;
+	-webkit-background-size:100% 90%;
+	-moz-background-size:100% 90%;
+	-o-background-size:100% 90%;
+	-ms-background-size:100% 90%;
+    background-size: 100% 95%;
 }
 
 .home h1{
-    color:#000;
+    color:#fff;
+    text-shadow: 1px 1px #000;
 }
 .home p{
-    color:#000;
-    font-size: 30px;
+    color:#fff;
+    text-shadow: 2px 1px #000;
+    -webkit-font-size: 12px;
+    font-size: 170%;
     padding: 50px;
 }
 .item, .active, .carousel-inner {
@@ -375,6 +377,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 .services {
 	width: 94%;
+    margin-top: -30px;
 	margin: auto;
 	background-color: #f2f2f2;
 }
@@ -383,24 +386,24 @@ ul li {
 	line-height: 40px;
 	letter-spacing: 2px;
 	font-weight: 300;
+    margin: 0;
+    
 }
 .services h5 {
 	font-size: 21px;
     line-height: 33px;
 	font-weight: 300;
-	margin-bottom: 10%;
 	text-transform: none;
 }
 .services p {
 	color: #6c7279;
-	font-size: 23px;
-    line-height: 30px;
-	/*font-weight: 400;*/
-	margin-top: 7%;
-    text-align: left;
+	font-size: 20px;
+    line-height: 25px;
+	font-weight: 400;
+	margin-top: 3%;
 }
 .services-content {
-	margin: 50px
+    margin: 20px;
 }
 .services-content li a {
 	color: #6c7279;
@@ -415,7 +418,7 @@ ul li {
 #qualidade {
 	width: 92%;
 	margin: auto;
-   line-height: 40px;
+   line-height: 25px;
 }
 #qualidade .portfolio-item {
 	right: 0;
@@ -430,11 +433,10 @@ ul li {
 }
 #qualidade p{
     color: #6c7279;
-    font-size: 23px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 25px;
     /* font-weight: 400; */
     margin-top: 7%;
-    text-align: justify;
 }
 
 #qualidade .portfolio-item .portfolio-link {
@@ -493,8 +495,9 @@ ul li {
 	margin: auto;
 	background-color: #fff;
 	position: relative;
-    padding: 4%;
-	text-align: center;
+    padding: 1px;
+    padding-top: 20px; 
+	text-align: left;
 }
 
 .contato h1 {
